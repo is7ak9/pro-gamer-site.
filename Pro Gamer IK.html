@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>Pro Gamer IK</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364, #1f1f1f);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+      color: white;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      color: #00ffff;
+      font-size: 36px;
+      margin: 0;
+    }
+
+    nav {
+      background-color: rgba(44, 44, 44, 0.9);
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #00ff99;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .hero img {
+      width: 80%;
+      max-width: 500px;
+      border-radius: 20px;
+      box-shadow: 0 0 30px rgba(0, 255, 153, 0.4);
+    }
+
+    .hero h2 {
+      font-size: 32px;
+      margin-top: 20px;
+      color: #00ff99;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #ccc;
+      margin-top: 10px;
+    }
+
+    section.review,
+    section.top-games {
+      background-color: #1c1c1c;
+      padding: 40px 30px;
+      margin-top: 50px;
+    }
+
+    section h1 {
+      color: #ffcc00;
+    }
+
+    section h2 {
+      color: #00d4ff;
+    }
+
+    section p {
+      line-height: 1.7;
+      font-size: 17px;
+    }
+
+    section ul {
+      list-style: none;
+      padding-right: 0;
+    }
+
+    section li::before {
+      content: "🔹 ";
+    }
+
+    .content-with-image {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .content-with-image img {
+      width: 300px;
+      max-width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0,255,255,0.3);
+    }
+
+    .content-text {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    footer {
+      background-color: rgba(31, 31, 31, 0.9);
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      color: #888;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>مرحبًا بكم في مدونة Pro Gamer IK</h1>
+  </header>
+
+  <nav>
+    <a href="#">الرئيسية</a>
+    <a href="#review-section">مراجعات الألعاب</a>
+    <a href="#top-games-section">أفضل 5</a>
+    <a href="#">تحميل</a>
+  </nav>
+
+  <section class="hero">
+    <img src="IK.png" alt="صورة ترحيبية">
+    <h2>اكتشف كل جديد في عالم الألعاب 🔥</h2>
+    <p>تابع آخر أخبار Free Fire، ألعاب الموبايل، البي سي والمزيد!</p>
+  </section>
+
+  <!-- مراجعة فري فاير -->
+  <section class="review" id="review-section">
+    <div class="content-with-image">
+      <div class="content-text">
+        <h1>🔥 فري فاير: لعبة الباتل رويال التي غيرت قواعد اللعب!</h1>
+        <h2>🎮 مقدمة</h2>
+        <p>في عالم الألعاب الإلكترونية، ظهرت العديد من ألعاب الباتل رويال، لكن واحدة فقط استطاعت أن تخطف أنفاس اللاعبين... إنها Garena Free Fire!</p>
+        <h2>🏝️ ما هي فري فاير؟</h2>
+        <p>Free Fire هي لعبة باتل رويال مجانية... يُقاتل 50 لاعبًا من أجل البقاء.</p>
+        <h2>⚙️ طريقة اللعب</h2>
+        <ul>
+          <li>يقفز اللاعبون من طائرة إلى موقع على الخريطة.</li>
+          <li>يبحث اللاعب عن الأسلحة والموارد بسرعة.</li>
+          <li>اللعب فردي أو جماعي ضمن فريق.</li>
+        </ul>
+        <h2>✨ ما الذي يميز فري فاير؟</h2>
+        <ul>
+          <li>✅ تعمل على الهواتف الضعيفة.</li>
+          <li>✅ مباريات سريعة.</li>
+        </ul>
+        <h2>🧠 نصائح</h2>
+        <ul>
+          <li>ابقَ داخل منطقة الأمان.</li>
+          <li>استخدم سماعات لسماع خطوات الأعداء.</li>
+        </ul>
+        <p><strong>💬 هل جربت فري فاير؟ شاركنا تجربتك!</strong></p>
+      </div>
+      <img src="cobra.jpg" alt="صورة فري فاير">
+    </div>
+  </section>
+
+  <!-- أفضل 5 ألعاب موبايل -->
+  <section class="top-games" id="top-games-section">
+    <div class="content-with-image">
+      <div class="content-text">
+        <h1>🎮 أفضل 5 ألعاب موبايل لعام 2025: متعة في جيبك! 📱🔥</h1>
+        <p>في زمن الهاتف الذكي، لم تعد الألعاب للتسلية فقط، بل تجربة تفاعلية. إليك الأفضل:</p>
+
+        <h2>🥇 1. PUBG Mobile – ساحة معركة واقعية</h2>
+        <p><strong>النوع:</strong> باتل رويال | <strong>الحجم:</strong> 2 جيغا</p>
+        <ul>
+          <li>✔ جرافيك عالي الجودة</li>
+          <li>✔ أطوار لعب متنوعة</li>
+        </ul>
+
+        <h2>🥈 2. Garena Free Fire MAX – السرعة في البقاء</h2>
+        <p><strong>النوع:</strong> باتل رويال | <strong>الحجم:</strong> خفيف نسبيًا</p>
+        <ul>
+          <li>✔ مناسبة للأجهزة الضعيفة</li>
+          <li>✔ فعاليات يومية</li>
+        </ul>
+
+        <h2>🥉 3. Call of Duty: Mobile – الأكشن الكلاسيكي</h2>
+        <p><strong>النوع:</strong> شوتر | <strong>الحجم:</strong> 3 جيغا</p>
+        <ul>
+          <li>✔ أطوار كثيرة</li>
+          <li>✔ خرائط مشهورة</li>
+        </ul>
+
+        <h2>🏅 4. Clash Royale – معركة عقول</h2>
+        <p><strong>النوع:</strong> إستراتيجية | <strong>الحجم:</strong> 150 ميغا</p>
+        <ul>
+          <li>✔ لا تستهلك بطارية</li>
+          <li>✔ لعب ذكي وتكتيكي</li>
+        </ul>
+
+        <h2>🎖️ 5. Among Us – خيانة بين الأصدقاء</h2>
+        <p><strong>النوع:</strong> جماعي | <strong>الحجم:</strong> خفيف</p>
+        <ul>
+          <li>✔ ضحك وضغط نفسي 😅</li>
+          <li>✔ مجانية وسهلة</li>
+        </ul>
+      </div>
+      <img src="5.png" alt="أفضل 5 ألعاب">
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Pro Gamer IK - جميع الحقوق محفوظة.
+  </footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>تحميل الألعاب - Pro Gamer IK</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      text-align: center;
+      padding: 20px 0;
+      background-color: #222;
+      margin-bottom: 0;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    .game-card {
+      background-color: #1f1f1f;
+      border-radius: 10px;
+      padding: 15px;
+      margin: 15px;
+      width: 300px;
+      box-shadow: 0 0 15px rgba(255,255,255,0.1);
+      text-align: center;
+    }
+    .game-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .download-button {
+      display: inline-block;
+      background-color: #00aaff;
+      color: white;
+      padding: 10px 20px;
+      margin-top: 10px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+    .download-button:hover {
+      background-color: #0088cc;
+    }
+  </style>
+</head>
+<body>
+  <h1>📥 تحميل الألعاب</h1>
+  <div class="container">
+
+    <!-- Free Fire -->
+    <div class="game-card">
+      <h2>Free Fire</h2>
+      <img src="ff.jpg" alt="Free Fire">
+      <p>الحجم: 700MB<br>الجهاز: أندرويد / iOS<br>متطلبات: رام 2GB+</p>
+      <a class="download-button" href="https://play.google.com/store/apps/details?id=com.dts.freefireth" target="_blank">تحميل</a>
+    </div>
+
+    <!-- PUBG Mobile -->
+    <div class="game-card">
+      <h2>PUBG Mobile</h2>
+      <img src="p.jpg" alt="PUBG">
+      <p>الحجم: 1.5GB<br>الجهاز: أندرويد / iOS<br>متطلبات: رام 3GB+</p>
+      <a class="download-button" href="https://play.google.com/store/apps/details?id=com.tencent.ig" target="_blank">تحميل</a>
+    </div>
+
+    <!-- Among Us -->
+    <div class="game-card">
+      <h2>Among Us</h2>
+      <img src="as.jpg" alt="Among Us">
+      <p>الحجم: 150MB<br>الجهاز: هاتف / PC<br>ويندوز 7+</p>
+      <a class="download-button" href="https://www.innersloth.com/" target="_blank">تحميل</a>
+    </div>
+
+    <!-- GTA San Andreas -->
+    <div class="game-card">
+      <h2>GTA San Andreas</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/en/c/c4/GTASABOX.jpg" alt="GTA SA">
+      <p>الحجم: 2.5GB<br>الجهاز: PC<br>ويندوز XP / 7 / 10<br>رام 2GB+</p>
+      <a class="download-button" href="https://store.steampowered.com/app/12120/Grand_Theft_Auto_San_Andreas/" target="_blank">تحميل</a>
+    </div>
+
+    <!-- Call of Duty Mobile -->
+    <div class="game-card">
+      <h2>Call of Duty Mobile</h2>
+      <img src="call.jpg" alt="COD Mobile">
+      <p>الحجم: 2GB<br>الجهاز: أندرويد / iOS<br>متطلبات: رام 3GB+</p>
+      <a class="download-button" href="https://www.callofduty.com/mobile" target="_blank">تحميل</a>
+    </div>
+
+    <!-- Clash Royale -->
+    <div class="game-card">
+      <h2>Clash Royale</h2>
+      <img src="cl.jpg" alt="Clash Royale">
+      <p>الحجم: 150MB<br>الجهاز: أندرويد / iOS<br>متطلبات: رام 1GB+</p>
+      <a class="download-button" href="https://play.google.com/store/apps/details?id=com.supercell.clashroyale" target="_blank">تحميل</a>
+    </div>
+
+    <!-- Minecraft Java -->
+    <div class="game-card">
+      <h2>Minecraft Java</h2>
+      <img src="min.jpg" alt="Minecraft">
+      <p>الحجم: 300MB<br>الجهاز: PC<br>ويندوز 10 / 11<br>رام 4GB+</p>
+      <a class="download-button" href="https://www.minecraft.net/en-us/store/minecraft-java-edition" target="_blank">تحميل</a>
+    </div>
+
+  </div>
+</body>
+</html>
